@@ -3,7 +3,10 @@ import { Link } from 'react-router-dom'
 import '../styles/navbar.css'
 function Navbar() {
 	return (
-		<div>
+		<div id="nav">
+			<div id="name">
+				<h2>Oscar Nazarit</h2>
+			</div>
 			<ul>
 				<li>
 					<Link to ="/" className='nav-link'>

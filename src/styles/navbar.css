@@ -2,14 +2,23 @@ div
 {
 	display: flex;
 	flex-direction: row;
+	align-items: center;
 	position: sticky;
 	margin-bottom: 3rem;
+	margin-top: 0;
+}
+#name 
+{
+	margin-top: 0;
+	margin-bottom: 0;
+	color: #646cff;
 }
 ul 
 {
 	display: flex;
 	flex-direction: row;
 	list-style: none;
+	margin-right: 0;
 }
 li 
 {
