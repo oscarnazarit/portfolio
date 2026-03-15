@@ -3,25 +3,23 @@ import { HashRouter, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import About from './pages/About';
-import Work from './pages/Work';
+import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 
-
-import './App.css'
-
 function App() {
-
   return (
     <HashRouter>
-      <Navbar/>
-      <Routes>
-        <Route path="/" element={<Home />}/>
-        <Route path="/about" element={<About />}/>
-        <Route path="/work" element={<Work />}/>
-        <Route path="/contact" element={<Contact />}/>
-      </Routes>
-      </HashRouter>
-  )
+      <div className="min-h-screen bg-slate-900 text-slate-100">
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </div>
+    </HashRouter>
+  );
 }
 
-export default App
+export default App;
