@@ -41,10 +41,17 @@ function Navbar() {
 
   return (
     <div className="flex flex-row gap-2 p-8">
-      <AppBar color="transparent" position="static">
+      <AppBar
+        color="transparent"
+        position="static"
+        sx={{
+          fontFamily: '"Edu AU VIC WA NT Arrows", cursive',
+        }}
+      >
         <Container maxWidth="xl">
           <Toolbar disableGutters>
             <Typography
+              className="navbar-stroke-text"
               variant="h6"
               noWrap
               component={Link}
@@ -52,10 +59,10 @@ function Navbar() {
               sx={{
                 mr: 2,
                 display: { xs: 'none', md: 'flex' },
-                fontFamily: 'monospace',
+                fontFamily: 'inherit',
                 fontWeight: 700,
                 letterSpacing: '.3rem',
-                color: 'inherit',
+                color: '#16db65',
                 textDecoration: 'none',
               }}
             >
@@ -97,7 +104,7 @@ function Navbar() {
                     onClick={handleCloseNavMenu}
                     className="nav-hover-link"
                   >
-                    <Typography className="nav-hover-link-label" sx={{ textAlign: 'center' }}>
+                    <Typography className="nav-hover-link-label navbar-stroke-text" sx={{ textAlign: 'center' }}>
                       {page.label}
                     </Typography>
                   </MenuItem>
@@ -105,6 +112,7 @@ function Navbar() {
               </Menu>
             </Box>
             <Typography
+              className="navbar-stroke-text"
               variant="h5"
               noWrap
               component={Link}
@@ -113,10 +121,10 @@ function Navbar() {
                 mr: 2,
                 display: { xs: 'flex', md: 'none' },
                 flexGrow: 1,
-                fontFamily: 'monospace',
+                fontFamily: 'inherit',
                 fontWeight: 700,
                 letterSpacing: '.3rem',
-                color: 'inherit',
+                color: '#16db65',
                 textDecoration: 'none',
               }}
             >
@@ -130,9 +138,9 @@ function Navbar() {
                   to={page.path}
                   onClick={handleCloseNavMenu}
                   className="nav-hover-link"
-                  sx={{ my: 2, color: 'white', display: 'block' }}
+                  sx={{ my: 2, color: '#16db65', display: 'block' }}
                 >
-                  <span className="nav-hover-link-label">{page.label}</span>
+                  <span className="nav-hover-link-label navbar-stroke-text">{page.label}</span>
                 </Button>
               ))}
             </Box>

@@ -9,7 +9,7 @@ import Contact from './pages/Contact';
 function App() {
   return (
     <HashRouter>
-      <div className="min-h-screen bg-slate-900 text-slate-100">
+      <div className="min-h-screen bg-black text-slate-100">
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
