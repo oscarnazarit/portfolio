@@ -32,15 +32,12 @@ function About() {
         <article className="rounded-xl border border-white/15 bg-black/25 p-5 lg:col-span-2">
           <h2 className="text-lg font-semibold text-white">Profile Image</h2>
           <div className="mt-4 overflow-hidden rounded-xl border border-dashed border-white/30 bg-black/20">
-            <div className="flex aspect-4/5 items-center justify-center px-4 text-center text-sm text-white/70">
-              Insert image here
-              <br />
-              Example path: public/images/profile.jpg
-            </div>
+            <img
+              className="h-fit"
+              src={`${import.meta.env.BASE_URL}profile_pic.jpeg`}
+              alt="profile pic"
+            />
           </div>
-          <p className="mt-3 text-xs text-white/60">
-            Tip: Replace this placeholder with an img tag once your photo is ready.
-          </p>
         </article>
 
         <article className="rounded-xl border border-white/15 bg-black/25 p-5 lg:col-span-3">
