@@ -91,6 +91,23 @@ function Navbar() {
                 open={Boolean(anchorElNav)}
                 onClose={handleCloseNavMenu}
                 sx={{ display: { xs: 'block', md: 'none' } }}
+                slotProps={{
+                  paper: {
+                    sx: {
+                      mt: 1,
+                      minWidth: 220,
+                      border: '1px solid rgba(255,255,255,0.2)',
+                      backgroundColor: 'rgba(0,0,0,0.9)',
+                      backgroundImage: 'none',
+                      backdropFilter: 'blur(8px)',
+                    },
+                  },
+                  list: {
+                    sx: {
+                      py: 0.5,
+                    },
+                  },
+                }}
               >
                 {pages.map((page) => (
                   <MenuItem
@@ -99,6 +116,12 @@ function Navbar() {
                     to={page.path}
                     onClick={handleCloseNavMenu}
                     className="nav-hover-link"
+                    sx={{
+                      borderRadius: 1,
+                      mx: 0.5,
+                      my: 0.25,
+                      '&:hover': { backgroundColor: 'rgba(74,146,241,0.14)' },
+                    }}
                   >
                     <Typography
                       className="nav-hover-link-label navbar-stroke-text"
