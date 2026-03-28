@@ -33,7 +33,7 @@ function About() {
           <h2 className="text-lg font-semibold text-white">Profile Image</h2>
           <div className="mt-4 overflow-hidden rounded-xl border border-dashed border-white/30 bg-black/20">
             <img
-              className="h-fit"
+              className="block w-full h-auto"
               src={`${import.meta.env.BASE_URL}profile_pic.jpeg`}
               alt="profile pic"
             />
