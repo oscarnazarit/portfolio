@@ -10,7 +10,7 @@ const projects = [
     highlights: [
       'Worked on core frontend experience and interface consistency.',
       'Contributed to structured feature planning with teammates.',
-      'Focused on usability for day-to-day project coordination.',
+      'Focused on usability for day-to-day invertebrate care taking.',
     ],
     stack: ['React', 'TypeScript', 'UI Architecture'],
   },

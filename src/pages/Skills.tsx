@@ -9,7 +9,7 @@ const skillGroups = [
   {
     title: 'Frontend',
     description: 'Libraries and frameworks I use for modern interfaces.',
-    items: ['React', 'Next.js', 'Material UI', 'Tailwind CSS'],
+    items: ['React', 'Next.js', 'Material UI', 'Tailwind CSS', 'ShadCN'],
   },
   {
     title: 'Tools',

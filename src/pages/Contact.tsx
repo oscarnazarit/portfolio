@@ -9,8 +9,8 @@ function Contact() {
           Let&apos;s Build Something Great
         </h1>
         <p className="mt-4 max-w-3xl text-base text-white/85 md:text-lg">
-          I&apos;m open to internships, collaborations, and conversations about software projects,
-          frontend development, and product ideas.
+          I&apos;m open to work, collaborations, and conversations about software projects, frontend
+          development, and product ideas.
         </p>
         <div className="mt-6 flex flex-wrap gap-3">
           <Link
@@ -60,26 +60,9 @@ function Contact() {
         <article className="rounded-xl border border-white/15 bg-black/25 p-5">
           <h2 className="text-lg font-semibold text-white">Availability</h2>
           <p className="mt-2 text-sm text-white/80">
-            Open to internships, project work, and collaboration chats.
-          </p>
-          <p className="mt-4 text-sm font-medium text-white/90">
-            Response time: usually within 24-48 hours
+            Open to work, project work, and collaboration chats.
           </p>
         </article>
-      </section>
-
-      <section className="mt-10 rounded-2xl border border-white/15 bg-black/25 p-6">
-        <h2 className="text-2xl font-semibold text-white">Quick Message Template</h2>
-        <p className="mt-2 text-sm text-white/80">
-          You can use this format when reaching out to make it easy for me to respond quickly:
-        </p>
-        <div className="mt-4 rounded-xl border border-white/10 bg-black/20 p-4 text-sm text-white/85">
-          <p>Subject: Collaboration / Opportunity</p>
-          <p className="mt-2">Name:</p>
-          <p>Project or role:</p>
-          <p>Timeline:</p>
-          <p>Best way to follow up:</p>
-        </div>
       </section>
     </main>
   );
