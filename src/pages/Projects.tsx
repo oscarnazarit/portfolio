@@ -119,22 +119,6 @@ function Projects() {
           ))}
         </div>
       </section>
-
-      <section className="mt-10 rounded-2xl border border-[#4a92f1]/40 bg-[#4a92f1]/10 p-6">
-        <h2 className="text-xl font-semibold text-white">Want To See More?</h2>
-        <p className="mt-2 text-sm text-white/85">
-          I&apos;m always building and improving. Reach out if you&apos;d like to discuss project
-          details or collaboration ideas.
-        </p>
-        <div className="mt-4 flex flex-wrap gap-3">
-          <Link
-            to="/contact"
-            className="rounded-full bg-[#4a92f1] px-5 py-2 text-sm font-medium text-white transition hover:bg-[#3d7dd3]"
-          >
-            Let&apos;s Talk
-          </Link>
-        </div>
-      </section>
     </main>
   );
 }

@@ -81,21 +81,6 @@ function Contact() {
           <p>Best way to follow up:</p>
         </div>
       </section>
-
-      <section className="mt-10 rounded-2xl border border-[#4a92f1]/40 bg-[#4a92f1]/10 p-6">
-        <h2 className="text-xl font-semibold text-white">Ready To Connect?</h2>
-        <p className="mt-2 text-sm text-white/85">
-          Send a quick message and I&apos;ll get back to you as soon as I can.
-        </p>
-        <div className="mt-4 flex flex-wrap gap-3">
-          <a
-            href="mailto:oscarnazarit65@gmail.com"
-            className="rounded-full bg-[#4a92f1] px-5 py-2 text-sm font-medium text-white transition hover:bg-[#3d7dd3]"
-          >
-            Send Email
-          </a>
-        </div>
-      </section>
     </main>
   );
 }

@@ -166,21 +166,6 @@ function Home() {
           ))}
         </div>
       </section>
-
-      <section className="mt-10 rounded-2xl border border-[#4a92f1]/40 bg-[#4a92f1]/10 p-6">
-        <h2 className="text-xl font-semibold text-white">Let&apos;s Connect</h2>
-        <p className="mt-2 text-sm text-white/85">
-          If you want to discuss a project, collaboration, or opportunity, I&apos;d love to chat.
-        </p>
-        <div className="mt-4 flex flex-wrap gap-3">
-          <Link
-            to="/contact"
-            className="rounded-full bg-[#4a92f1] px-5 py-2 text-sm font-medium text-white transition hover:bg-[#3d7dd3]"
-          >
-            Go To Contact
-          </Link>
-        </div>
-      </section>
     </main>
   );
 }
