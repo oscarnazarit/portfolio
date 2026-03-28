@@ -92,7 +92,7 @@ function Home() {
           <ul className="mt-3 space-y-1 text-sm text-white/80">
             <li>Hivemind</li>
             <li>Talk Stalk</li>
-            <li>Absorb Ames</li>
+            <li>A Catholid Resource</li>
             <li>Slife Consulting</li>
           </ul>
           <Link
