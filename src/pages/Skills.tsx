@@ -14,7 +14,7 @@ const skillGroups = [
   {
     title: 'Tools',
     description: 'Workflow tools for collaboration and delivery.',
-    items: ['Git', 'GitHub', 'VS Code', 'Figma'],
+    items: ['Git', 'GitHub', 'VS Code', 'Figma', 'AWS'],
   },
 ];
 

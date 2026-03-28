@@ -6,18 +6,22 @@ const featuredProjects = [
     type: 'Senior Design Project',
     summary: 'Team collaboration platform focused on planning and communication.',
     stack: ['React', 'TypeScript', 'Team Collaboration'],
-  },
-  {
-    name: 'Talk Stalk',
-    type: 'Android Application',
-    summary: 'Mobile project exploring social and communication-focused interactions.',
-    stack: ['Android', 'Mobile UI', 'App Development'],
+    url: 'https://github.com/mantis00/hivemind',
   },
   {
     name: 'A Catholic Resource',
     type: 'React Web App',
     summary: 'Web experience for faith discovery and learning',
     stack: ['React', 'Frontend', 'UX'],
+    url: 'https://nayethecoder.github.io/CatholicRosaryApp/',
+  },
+  {
+    name: 'Raytracer',
+    type: 'Java Graphics Project',
+    summary:
+      'Educational raytracing engine built using graphics fundamentals and rendering concepts.',
+    stack: ['Java', 'Graphics', 'Ray Tracing', 'Rendering'],
+    url: 'https://github.com/nazarit19/raytracer',
   },
 ];
 
@@ -28,11 +32,11 @@ const skillGroups = [
   },
   {
     title: 'Frameworks',
-    items: ['React', 'Next.js', 'Material UI', 'Tailwind CSS'],
+    items: ['React', 'Next.js', 'Material UI', 'Tailwind CSS', 'ShadCN'],
   },
   {
     title: 'Tools',
-    items: ['Git', 'GitHub', 'VS Code', 'Figma'],
+    items: ['Git', 'GitHub', 'VS Code', 'Figma', 'AWS'],
   },
 ];
 
@@ -92,7 +96,7 @@ function Home() {
           <ul className="mt-3 space-y-1 text-sm text-white/80">
             <li>Hivemind</li>
             <li>Talk Stalk</li>
-            <li>A Catholid Resource</li>
+            <li>A Catholic Resource</li>
             <li>Slife Consulting</li>
           </ul>
           <Link
@@ -126,9 +130,12 @@ function Home() {
         </div>
         <div className="grid gap-4 md:grid-cols-3">
           {featuredProjects.map((project) => (
-            <article
+            <a
               key={project.name}
-              className="rounded-xl border border-white/15 bg-black/25 p-5"
+              href={project.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-xl border border-white/15 bg-black/25 p-5 block transition hover:bg-black/35 hover:border-white/25"
             >
               <p className="text-xs uppercase tracking-wide text-white/60">{project.type}</p>
               <h3 className="mt-1 text-xl font-semibold text-white">{project.name}</h3>
@@ -143,7 +150,7 @@ function Home() {
                   </span>
                 ))}
               </div>
-            </article>
+            </a>
           ))}
         </div>
       </section>
