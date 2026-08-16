@@ -5,8 +5,7 @@ const projects = [
     name: 'JMJ Cleaning Services LLC',
     type: 'Next.js Web App',
     period: 'Web Project',
-    summary:
-      'Cleaning company website.',
+    summary: 'Cleaning company website.',
     highlights: [
       'Worked on core frontend experience and interface consistency.',
       'Worked closely with client.',
@@ -19,8 +18,7 @@ const projects = [
     name: 'Rapid Shield Exteriors',
     type: 'Next.js Web App',
     period: 'Web Project',
-    summary:
-      'Roofing company website.',
+    summary: 'Roofing company website.',
     highlights: [
       'Worked on core frontend experience and interface consistency.',
       'Worked closely with client.',
