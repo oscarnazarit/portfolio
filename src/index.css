@@ -48,12 +48,6 @@ body,
   -webkit-text-fill-color: #fdfffe !important;
   -webkit-text-stroke: 0.8px #ffffff;
   paint-order: stroke fill;
-  text-shadow:
-    0 0 4px rgba(22, 127, 219, 0.7),
-    0 0 10px rgba(22, 127, 219, 0.7),
-    0 0 18px rgba(22, 127, 219, 0.7),
-    0 0 28px rgba(22, 127, 219, 0.7);
-  animation: navbar-glow-pulse 2.2s ease-in-out infinite;
 }
 
 @keyframes navbar-glow-pulse {

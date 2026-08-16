@@ -2,6 +2,34 @@ import { Link } from 'react-router-dom';
 
 const projects = [
   {
+    name: 'JMJ Cleaning Services LLC',
+    type: 'Next.js Web App',
+    period: 'Web Project',
+    summary:
+      'Cleaning company website.',
+    highlights: [
+      'Worked on core frontend experience and interface consistency.',
+      'Worked closely with client.',
+      'Designed layout and ux flow',
+    ],
+    stack: ['React', 'TypeScript', 'Next.js', 'ShadCN'],
+    url: 'https://jmjcleaningservices.com',
+  },
+  {
+    name: 'Rapid Shield Exteriors',
+    type: 'Next.js Web App',
+    period: 'Web Project',
+    summary:
+      'Roofing company website.',
+    highlights: [
+      'Worked on core frontend experience and interface consistency.',
+      'Worked closely with client.',
+      'Designed layout and ux flow',
+    ],
+    stack: ['React', 'TypeScript', 'Next.js', 'ShadCN'],
+    url: 'https://rapid-shield-exteriors.vercel.app/',
+  },
+  {
     name: 'Hivemind',
     type: 'Senior Design Project',
     period: 'Team Project',
@@ -26,7 +54,7 @@ const projects = [
       'Built reusable sections for scalable content.',
       'Emphasized simplicity and focused user journeys.',
     ],
-    stack: ['React', 'Frontend', 'Content Design'],
+    stack: ['React', 'Vite.js', 'Frontend', 'Content Design'],
     url: 'https://nayethecoder.github.io/CatholicRosaryApp/',
   },
   {
