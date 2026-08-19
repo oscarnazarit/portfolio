@@ -6,11 +6,11 @@ function About() {
       <section className="rounded-2xl border border-white/20 bg-black/30 p-6 md:p-10">
         <p className="text-sm uppercase tracking-[0.2em] text-white/70">About Me</p>
         <h1 className="mt-3 text-3xl font-semibold leading-tight text-white md:text-5xl">
-          Building With Curiosity And Intention
+          My background
         </h1>
         <p className="mt-4 max-w-3xl text-base text-white/85 md:text-lg">
-          I&apos;m Oscar Nazarit, a Software Engineering student at Iowa State University who enjoys
-          combining technical learning with practical product building.
+          A recent Iowa State University graduate, now working as a Software Engineer at Principal
+          Financial Group.
         </p>
         <div className="mt-6 flex flex-wrap gap-3">
           <Link

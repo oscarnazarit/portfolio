@@ -2,26 +2,25 @@ import { Link } from 'react-router-dom';
 
 const featuredProjects = [
   {
+    name: 'JMJ Cleaning Services',
+    type: 'Next.js Web App',
+    summary: 'A cleaning companies core website',
+    stack: ['React', 'TypeScript', 'Supabase', 'Vercel'],
+    url: 'https://jmjcleaningservices.com',
+  },
+  {
+    name: 'Rapid Shield Exteriors',
+    type: 'Next.js Web App',
+    summary: 'A cleaning companies core website',
+    stack: ['React', 'TypeScript', 'Sanity', 'Vercel'],
+    url: 'https://rapid-shield-exteriors.vercel.app',
+  },
+  {
     name: 'Hivemind',
     type: 'Senior Design Project',
     summary: 'Team collaboration platform focused on planning and communication.',
     stack: ['React', 'TypeScript', 'Team Collaboration'],
     url: 'https://github.com/mantis00/hivemind',
-  },
-  {
-    name: 'A Catholic Resource',
-    type: 'React Web App',
-    summary: 'Web experience for faith discovery and learning',
-    stack: ['React', 'Frontend', 'UX'],
-    url: 'https://nayethecoder.github.io/CatholicRosaryApp/',
-  },
-  {
-    name: 'Raytracer',
-    type: 'Java Graphics Project',
-    summary:
-      'Educational raytracing engine built using graphics fundamentals and rendering concepts.',
-    stack: ['Java', 'Graphics', 'Ray Tracing', 'Rendering'],
-    url: 'https://github.com/nazarit19/raytracer',
   },
 ];
 
@@ -49,8 +48,8 @@ function Home() {
           Oscar Nazarit
         </h1>
         <p className="mt-4 max-w-3xl text-base text-white/85 md:text-lg">
-          Software Engineering student at Iowa State University with a focus on web development,
-          practical product building, and learning emerging technologies.
+          Recent Iowa State University graduate in Software Engineering with a focus on web
+          development, practical product building, and learning emerging technologies.
         </p>
         <div className="mt-6 flex flex-wrap gap-3">
           <Link
@@ -78,7 +77,7 @@ function Home() {
         <article className="rounded-xl border border-white/15 bg-black/25 p-5">
           <h2 className="text-lg font-semibold text-white">About</h2>
           <ul className="mt-3 space-y-2 text-sm text-white/80">
-            <li>Software Engineering student at Iowa State University</li>
+            <li>Software Engineer</li>
             <li>Interested in technology history and hands-on building</li>
             <li>Focused on turning ideas into polished applications</li>
           </ul>
@@ -94,10 +93,10 @@ function Home() {
           <h2 className="text-lg font-semibold text-white">Projects</h2>
           <p className="mt-3 text-sm text-white/80">Built across web and mobile experiences.</p>
           <ul className="mt-3 space-y-1 text-sm text-white/80">
+            <li>JMJ Cleaning Services</li>
+            <li>Rapid Shield Exteriors</li>
             <li>Hivemind</li>
-            <li>Talk Stalk</li>
             <li>A Catholic Resource</li>
-            <li>Slife Consulting</li>
           </ul>
           <Link
             to="/projects"

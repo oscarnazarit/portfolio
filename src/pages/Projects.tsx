@@ -5,13 +5,13 @@ const projects = [
     name: 'JMJ Cleaning Services LLC',
     type: 'Next.js Web App',
     period: 'Web Project',
-    summary: 'Cleaning company website.',
+    summary: 'Website for a cleaning company.',
     highlights: [
       'Worked on core frontend experience and interface consistency.',
       'Worked closely with client.',
       'Designed layout and ux flow',
     ],
-    stack: ['React', 'TypeScript', 'Next.js', 'ShadCN'],
+    stack: ['React', 'TypeScript', 'Next.js', 'Shadcn'],
     url: 'https://jmjcleaningservices.com',
   },
   {
